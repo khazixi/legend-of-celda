@@ -13,7 +13,7 @@ int main(void){
 
 	while(!WindowShouldClose()){
 		BeginDrawing();
-		ClearBackground(WHITE);
+		ClearBackground(BLACK);
 		EndDrawing();
 	}
 	CloseWindow();
